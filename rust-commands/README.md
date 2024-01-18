@@ -30,15 +30,16 @@ cargo install cargo-watch
 cargo watch -x check
 ```
 
-
 ### It will start by running cargo check. If it succeeds, it launches cargo test. If tests pass, it launches the application with cargo run.
 ```bash
 cargo watch -x check -x test -x run
 ```
+
 ### Tool to check code coverage
 ```bash
 cargo install cargo-tarpaulin
 ```
+
 ### It will compute code coverage, ignoring tests
 ```bash
 cargo tarpaulin --ignore-tests
