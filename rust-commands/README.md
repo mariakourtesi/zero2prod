@@ -44,3 +44,15 @@ cargo install cargo-tarpaulin
 ```bash
 cargo tarpaulin --ignore-tests
 ```
+
+### To install cargo expand, which is useful to expand all macros is your code without passing the output to the compiler, you need to install the nightly version
+```bash
+rustup toolchain install nightly --allow-downgrade
+```
+Some components of the bundle installed by rustup might be broken/missing on the latest nightly release: `--allow-downgrade` tells rustup to find and install the latest nightly where all the needed components are available.
+
+Cargo allows us to specify the toolchain on a per-command basis:
+### Use nightly toolchain just for this command invocation
+```bash
+cargo +nightly expand
+```

@@ -14,6 +14,13 @@ Clone this repository to your local machine:
   git clone https://github.com/mariakourtesi/zero2prod.git
 ```
 
+To run the application 
+```bash
+ cargo run
+```
+
+For Rust commands see [here](./rust-commands/README.md)
+
 Follow the instructions in the "Zero to Production" book to progress through the exercises and apply the concepts covered in each chapter.
 
 
