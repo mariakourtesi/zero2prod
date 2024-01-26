@@ -56,3 +56,7 @@ Cargo allows us to specify the toolchain on a per-command basis:
 ```bash
 cargo +nightly expand
 ```
+### Inspect what code gets generated in a test
+```bash
+cargo expand --test name_of_test
+```
