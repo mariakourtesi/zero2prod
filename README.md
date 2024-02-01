@@ -26,3 +26,4 @@ Follow the instructions in the "Zero to Production" book to progress through the
 
 
 
+installation in ubuntu https://www.rust-lang.org/tools/install
